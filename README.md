@@ -1,3 +1,11 @@
+# Current maintenance status
+
+Historical UI prototype, NOT a deployable audit system. The old plaintext-login/database implementation was removed from reachable history. All backend requests now return HTTP 410 and no data is read or written. The stub listens only on localhost. Frontend forms are historical UI only and no longer save data.
+
+See [PUBLICATION_NOTES.md](PUBLICATION_NOTES.md).
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
